@@ -5,8 +5,10 @@ body {
     flex-direction: column;
 }
 
-ul {
+.links {
     list-style-type: none;
+    display: flex;
+    gap: 24px;
 }
 
 a {
@@ -35,6 +37,10 @@ button {
 .hero p, a {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header {
+    display: flex;
 }
 
 .header-logo {
