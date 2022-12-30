@@ -13,9 +13,9 @@ a {
 
 button {
     background-color: #3882f6;
-    color: #fff;
+    color: #f9faf8;
     padding: 8px 24px;
-    border: 2px solid #fff;
+    border: 2px solid #f9faf8;
     border-radius: 8px;
     text-align: center;
 }
@@ -53,6 +53,11 @@ button {
     font-weight: 100;
     font-style: italic;
     color: #1f2937;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
 
 .footer {
