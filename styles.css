@@ -73,6 +73,15 @@ button {
 
 .info-container {
     display: flex;
+    justify-content: center;
+}
+
+.info-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
 }
 
 .placeholder {
@@ -111,6 +120,7 @@ button {
 .action-button {
     align-self: center;
     margin-top: 24px;
+    flex-shrink: 0;
 }
 
 .footer {
