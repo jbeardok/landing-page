@@ -97,8 +97,20 @@ button {
 }
 
 .call-to-action {
+    max-width: fit-content;
     background-color: #3882f6;
     color: #f9faf8;
+    padding: 8px 120px;
+    margin: 16px;
+    border-radius: 8px;
+    align-self: center;
+    display: flex;
+    gap: 64px;
+}
+
+.action-button {
+    align-self: center;
+    margin-top: 24px;
 }
 
 .footer {
