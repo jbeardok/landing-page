@@ -41,6 +41,7 @@ button {
 
 .header {
     display: flex;
+    padding: 8px 100px;
 }
 
 .header-logo {
@@ -52,6 +53,8 @@ button {
 
 .hero-container {
     display: flex;
+    gap: 32px;
+    padding: 100px;
 }
 
 .img-placeholder {
@@ -64,11 +67,16 @@ button {
     align-items: center;
 }
 
+.information {
+    padding-bottom: 100px;
+}
+
 .information h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
+    padding: 25px 0px;
 }
 
 .info-container {
@@ -110,7 +118,7 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 8px 120px;
-    margin: 16px;
+    margin: 75px;
     border-radius: 8px;
     align-self: center;
     display: flex;
@@ -127,4 +135,5 @@ button {
     background-color: #1f2937;
     color: #e5e7eb;
     text-align: center;
+    padding: 8px;
 }
