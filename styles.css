@@ -74,6 +74,12 @@ button {
     color: #1f2937;
 }
 
+.thor {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+}
+
 .call-to-action {
     background-color: #3882f6;
     color: #f9faf8;
