@@ -8,6 +8,7 @@ body {
 .links {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -82,6 +83,7 @@ button {
 .info-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info-child {
@@ -130,6 +132,7 @@ button {
     border-radius: 8px;
     align-self: center;
     display: flex;
+    flex-wrap: wrap;
     gap: 64px;
 }
 
